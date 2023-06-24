@@ -1,0 +1,103 @@
+<html>
+
+
+<head>
+    <link rel="shurtcut icon" href="images/logo.png ">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Yummy</title>
+
+
+
+</head>
+
+<body>
+
+    <div class="loading-screen">
+        <i class="fa fa-spinner fa-spin fa-5x"></i>
+    </div>
+
+
+
+    <div class="side-nav-menu  position-fixed">
+        <div class=" container-side nav menu">
+            <div class=" left-side d-flex flex-column justify-content-between ">
+                <div class=" links  ">
+                    <ul class=" list-links overflow-hidden">
+                        <li  onclick="DisplayInputsSearch ()"  class="position-relative " id="Search ">Search</li>
+                        <li onclick="GetCategories()" class="position-relative" id="Search ">Categories</li>
+                        <li onclick="getAreaMeal()" class="position-relative" id="Search ">Area</li>
+                        <li onclick="getIngredients()" class="position-relative" id="Search ">Ingredients</li>
+                        <li onclick="showContacts()" class="position-relative" id="Search">Contact Us</li>
+                    </ul>
+                </div>
+                <div class=" footer-side-bar  text-white m-2 ">
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fas fa-globe"></i>
+                    <h4  class=" text-white fs-2">Copyright Â© 2019 All Rights
+                        <br> Reserved.
+                    </h4>
+                </div>
+            </div>
+            <div class="Right-side d-flex flex-column justify-content-between  text-center  bg-white min-vh-100">
+                <div class="  home-logo-png  ">
+                    <img src="images/logo.png " alt="" class="logo-png">
+                </div>
+                <i class="fa-solid fa-bars fa-2x icon-bars "></i>
+                <div class=" icons-gloge-share ">
+                    <span class=" d-block"><i class="fas fa-globe"></i></span>
+                    <span class="d-block"><i class="fas fa-share"></i></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container container-Home">
+        <div class="row " id="InputsSearch">
+    
+        </div>
+    </div>
+
+
+    <div class=" position-relative vh-100  ">
+
+   <div class="inner-loading-screen ">
+    <i class="fa fa-spinner fa-spin fa-5x"></i>
+
+   </div>
+
+        <div class="container Home ">
+    
+            <div class="row  py-3" id="rowData">
+                     
+    
+            </div>
+        </div>
+
+    </div>
+
+
+
+    
+
+
+
+
+    
+    
+
+
+
+
+
+
+
+
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
